@@ -73,6 +73,7 @@ section { overflow: hidden; }*/
     padding-bottom: 100px;
 }
 
+
 .roomy-80 {
     padding-top: 100px;
     padding-bottom: 80px;
@@ -105,9 +106,11 @@ section { overflow: hidden; }*/
 
 .text-primary{color: #142F67 !important;;}
 .text-finence{color:#13A0B2 !important;;}
-.text-mega{color:#ff6863 !important;;}
-.text-white{color:#142F67!important;;}
+.text-mega{color:#142F67 !important;;}
+h1.text-white{color:#142F67!important;;}
+h4.text-white{color:#ffffff!important;;}
 .text-black{color:#000 !important;}
+
 
 .text-warning{}
 .text-danger{}
@@ -118,13 +121,16 @@ section { overflow: hidden; }*/
 
 /*bacground color*/
 .lightbg {
-    background-color: #f2f2f2;
+    background-color: #C8FFFF;
 }
 .bg-primary{background-color: #1E8BC3;}
 .bg-finence{background-color:#13A0B2;}
-.bg-mega{background-color:#6a6b6c;}
+.bg-mega{   
+    background: url(../images/background/footer.jpg) no-repeat bottom center;
+    background-size: cover;
+    position: relative;}
 .bg-grey{background-color: #f5f5f5;}
-.bg-black{background-color: #212121;}
+.bg-black{background-color: #142F67;}
 .bg-white{background-color: #fff;}
 
 img {
@@ -225,9 +231,11 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    color:#1a1a1a;
+    font-family: 'RUSSO ONE', sans-serif;
+    color:#142F67;
     margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    }
 }
 
 h1 {
@@ -235,7 +243,7 @@ h1 {
     line-height: 4rem;
 }
 h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 3rem;
 }
 h3 {
@@ -245,13 +253,17 @@ h3 {
 h4 {
     font-size: 1.6rem;
     line-height: 2.2rem;
+    PADDING-BOTTOM: 0.5rem;
 }
 h5 {
     font-size: 1.3rem;
 }
 h6 {
+    font-family: "poppins";
     font-size: 1rem;
 }
+
+
 
 
 
@@ -349,29 +361,6 @@ ul{
 }
 
 
-/*
-Separator
-*/
-.separator_left{
-    width:85px;
-    height:2px;
-    margin:20px 0px;
-    background: #ff6863;
-}
-.separator_auto{
-    width:85px;
-    height:2px;
-    margin:20px auto;
-    background: #142F67;
-}
-.separator_small{
-    width:30px;
-    height:2px;
-    margin:20px 0px;
-    background: #142F67;
-}
-
-/*
 Button
 */
 .btn{
@@ -404,6 +393,8 @@ Button
     color: #142F67;
     background-color: #FDFD06;
     padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
 }
 .btn-primary:hover{
     background-color: #eee;
@@ -462,6 +453,7 @@ Extra height css
 }
 .m-top-30 {
     margin-top: 30px;
+    font-weight: 700;
 }
 .m-top-40 {
     margin-top: 40px;
@@ -735,21 +727,24 @@ textarea::-ms-input-placeholder{
     overflow: hidden;
 }
 /*heading title all area*/
-.head_title{
-    padding-bottom: 7.143rem;
-    overflow: hidden;
+
+.home_text p {
+    font-size: 1.6rem;
+    line-height: normal;
+    margin-top: 1rem;
 }
-.head_title h2{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size:2.286rem;
-    color:#1a1a1a;
+
+h4.head_title h4{
+    font-family: 'RUSSO ONE', sans-serif;
+    font-weight: 500;
+    color:#142F67;
 }
 .head_title p{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'POPPINS', sans-serif;
     font-weight: 400;
     font-size:1rem;
-    color:#4a4a4a;
+    color:#142F67;
+    padding-bottom: 1rem;
 }
 
 /*End off pridifain css*/
@@ -1024,7 +1019,7 @@ Home Section style
 }
 .home_text h1{
     font-family: 'russo one', sans-serif;
-    font: size 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 4rem;
     letter-spacing: 4px;
@@ -1067,6 +1062,8 @@ About section style
 
 
 
+
+
 /*
 FAQ Page
 --------*/
@@ -1074,7 +1071,7 @@ FAQ Page
 .faq_main_content h6{
     margin-bottom: 0rem;
     border: 1px solid;
-    border-color:#eee;
+    border-color:transparent;
     position: relative;
 }
 
@@ -1099,10 +1096,11 @@ FAQ Page
 
 .faq_main_content h6 a{
     display: block;
-    color: #6a6a6a;
+    color: #142F67;
     text-decoration: none;
     font-weight: normal;
     overflow: hidden;
+    font-weight: 700;
 }
 
 .faq_main_content h6 span{
@@ -1110,23 +1108,28 @@ FAQ Page
 }
 
 .faq_main_content h6 a i{
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    background-color: #eeeeee;
+    width: 58px;
+    height: 55px;
+    line-height: 47px;
+    background-color: transparent;
     text-align: center;
-    color:#444444;
+    color:#142F67;
     margin-right: 15px;
     font-size:1.5rem;
+    border-top: 4px solid #142F67;
+    border-right: 4px solid #142F67;
+    border-bottom: 4px solid #142F67;
+    border-left: 4px solid #142F67;
+    border-radius: 8px;
 }
 
 .faq_main_content h6.open a{
-    color:#444;
+    color:#142F67;
 }
 
 .faq_main_content h6.open a i{
     color:#fff;
-    background-color: #444444;
+    background-color: #142F67;
 }
 
 
@@ -1137,7 +1140,7 @@ FAQ Page
 
 .faq_main_content .content {
     padding: 25px;
-    color:#4a4a4a;
+    color:#142F67;
 }
 
 
@@ -1244,11 +1247,28 @@ service section style
     width:100%;
 }
 
+.service_item p{
+    color: #142F67;
+}
+
 
 .service_item{
-    width:100%;
+    width: 100%;
     overflow: hidden;
+    mix-blend-mode: multiply; 
 }
+
+.service_item img{
+    width: 50%;
+    opacity: 0.6;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 .service_item i.icofont,
 .service_item i.fa,
 .service_item span.icon{
@@ -1284,6 +1304,16 @@ Portfolio section style
     width:100%;
     overflow: hidden;
 }
+.main_portfolio h4{
+    color:#142F67;
+    font-weight: 200;
+}
+.main_portfolio p{
+    color:#142F67;
+    padding-bottom: 4rem;
+}
+
+
 .portfolio_item{
     position: relative;
     overflow: hidden;
@@ -1310,7 +1340,7 @@ Portfolio section style
     top:0%;
     width:100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.30); 
+    background-color: #143067be;
     padding-top: 12%;
     opacity: 0;
     -webkit-transition: all 0.4s;
@@ -1445,11 +1475,24 @@ Testimonial Section style
 /*
 Pricing Section style
 =======================*/
+
+
 .main_blog,
 .main_pricing{
     overflow: hidden;
     width:100%;
 }
+
+.main_pricing .head_title h4{
+    color: white;
+}
+
+.main_pricing .head_title p{
+    color:#FFF;
+    padding-bottom: 2rem;
+}
+
+
 .pricing_top_border{
     height: 4px;
     width:100%;
@@ -1461,7 +1504,7 @@ Pricing Section style
     box-shadow: 2px 2px 5px rgba(0,0,0,.3);
 }
 .pricing_head{
-    background-color: #f7f7f7;
+    background-color: rgba(20, 47, 103, 1);
 
 }
 .pricing_price_border{
@@ -1506,6 +1549,10 @@ Pricing Section style
 }
 .pricing_body ul li i{
     margin-right: 10px;
+}
+
+section#pricing {
+    background-color: #142F67;
 }
 
 
@@ -1638,11 +1685,11 @@ Contact Section style
 
 .widget_socail{}
 .widget_socail ul li a i{
-    background-color: #434343;
+    background-color: rgb(0 0 0 / 16%);
     width:40px;
     height: 40px;
+    border-radius: 10px;
     line-height: 40px;
-    border-radius: 50%;
     text-align: center;
     color:#fff;
     -webkit-transition: all 0.4s;
@@ -1668,8 +1715,17 @@ Footer Section style
     padding: 0px 5px;
     color: #ff0000;
 }
-
-
+.footer.bg-black{
+    background: #142F67;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-weight: 250;
+}
+.rage_widget p{
+    color:white;
+    font-weight: 250;
+}
 
 /*maps*/
 .main_maps{
