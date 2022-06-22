@@ -28,9 +28,9 @@
    ========================================================================== */
 html,
 body {
-    background-color: #C8FFFF;
-    font-size: 16px;
-    color: #142F67;
+    background-color: #0D1321;
+    font-size: 1rem;
+    color: #AAAFBD;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -104,12 +104,13 @@ section { overflow: hidden; }*/
 
 .text-muted{}
 
-.text-primary{color: #142F67 !important;;}
+.text-primary{color: #0D1321 !important;;}
 .text-finence{color:#13A0B2 !important;;}
-.text-mega{color:#142F67 !important;;}
-h1.text-white{color:#142F67!important;;}
+.text-mega{color:#0D1321 !important;;}
+h1.text-white{color:#F8FAFC!important;;}
 h4.text-white{color:#ffffff!important;;}
 .text-black{color:#000 !important;}
+
 
 
 .text-warning{}
@@ -121,16 +122,16 @@ h4.text-white{color:#ffffff!important;;}
 
 /*bacground color*/
 .lightbg {
-    background-color: #C8FFFF;
+    background-color: #0D1321;
 }
-.bg-primary{background-color: #1E8BC3;}
+.bg-primary{background-color: #0D1321;}
 .bg-finence{background-color:#13A0B2;}
 .bg-mega{   
-    background: url(../images/background/footer.jpg) no-repeat bottom center;
+    background: #0D1321;
     background-size: cover;
     position: relative;}
 .bg-grey{background-color: #f5f5f5;}
-.bg-black{background-color: #142F67;}
+.bg-black{background-color: #0D1321;}
 .bg-white{background-color: #fff;}
 
 img {
@@ -231,15 +232,15 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'RUSSO ONE', sans-serif;
-    color:#142F67;
+    font-family: 'BARLOW', sans-serif;
+    color:#F8FAFC;
     margin-bottom: 10px;
     letter-spacing: 1.5px;
     }
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 4rem;
 }
 h2 {
@@ -251,7 +252,7 @@ h3 {
     line-height: 2.5rem;
 }
 h4 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 2.2rem;
     PADDING-BOTTOM: 0.5rem;
 }
@@ -331,16 +332,6 @@ ul{
     list-style:none;
 }
 
-/*all overlay*/
-.overlay{
-    background-color: rgba(51,51,51,0.30);
-    position: absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height: 100%;
-}
-
 
 
 .no-padding {
@@ -385,21 +376,20 @@ Button
     border-radius: 0;
 }
 .btn-default:hover{
-    border-color:#142F67;
-    background-color: #142F67;
+    border-color:#0D1321;
+    background-color: #0D1321;
 }
 
 .btn-primary{
-    color: #142F67;
+    color: #0D1321;
     background-color: #FDFD06;
     padding: 1rem 2rem;
-    border-radius: 8px;
     font-weight: 700;
 }
 .btn-primary:hover{
-    background-color: #eee;
+    background-color: #AAAFBD;
     border-color: #eee;
-    color:#ff6863;
+    color:#FDFD06;
 }
 
 .btn-success{}
@@ -453,7 +443,6 @@ Extra height css
 }
 .m-top-30 {
     margin-top: 30px;
-    font-weight: 700;
 }
 .m-top-40 {
     margin-top: 40px;
@@ -728,22 +717,22 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 
-.home_text p {
+h1.home_text p {
     font-size: 1.6rem;
     line-height: normal;
     margin-top: 1rem;
 }
 
 h4.head_title h4{
-    font-family: 'RUSSO ONE', sans-serif;
+    font-family: 'barlow', sans-serif;
     font-weight: 500;
-    color:#142F67;
+    color:#F8FAFC;
 }
 .head_title p{
     font-family: 'POPPINS', sans-serif;
     font-weight: 400;
     font-size:1rem;
-    color:#142F67;
+    color:#AAAFBD;
     padding-bottom: 1rem;
 }
 
@@ -753,7 +742,7 @@ h4.head_title h4{
 /*Preloader css*/
 
 #loading{
-    background-color: #d14149;
+    background-color: #171A26;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -1013,15 +1002,15 @@ Home Section style
 .main_home{
     overflow: hidden;
     padding-top: 300px;
-    padding-bottom: 230px;
+    padding-bottom: 288px;
     position: relative;
     z-index: 1;
 }
 .home_text h1{
-    font-family: 'russo one', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    line-height: 4rem;
+    line-height: 3.4rem;
     letter-spacing: 4px;
 }
 
@@ -1089,18 +1078,17 @@ FAQ Page
 
 .faq_main_content h6 + div.open {
     height: 133px;
-    border:1px solid;
     border-top:0;
     border-color: #eee;
 }
 
 .faq_main_content h6 a{
     display: block;
-    color: #142F67;
+    color: #F8FAFC;
     text-decoration: none;
     font-weight: normal;
     overflow: hidden;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .faq_main_content h6 span{
@@ -1113,23 +1101,23 @@ FAQ Page
     line-height: 47px;
     background-color: transparent;
     text-align: center;
-    color:#142F67;
+    color:#F8FAFC;
     margin-right: 15px;
     font-size:1.5rem;
-    border-top: 4px solid #142F67;
-    border-right: 4px solid #142F67;
-    border-bottom: 4px solid #142F67;
-    border-left: 4px solid #142F67;
+    border-top: 4px solid #F8FAFC;
+    border-right: 4px solid #F8FAFC;
+    border-bottom: 4px solid #F8FAFC;
+    border-left: 4px solid #F8FAFC;
     border-radius: 8px;
 }
 
 .faq_main_content h6.open a{
-    color:#142F67;
+    color:#F8FAFC;
 }
 
 .faq_main_content h6.open a i{
     color:#fff;
-    background-color: #142F67;
+    background-color: #0D1321;
 }
 
 
@@ -1140,7 +1128,7 @@ FAQ Page
 
 .faq_main_content .content {
     padding: 25px;
-    color:#142F67;
+    color:#AAAFBD;
 }
 
 
@@ -1248,23 +1236,22 @@ service section style
 }
 
 .service_item p{
-    color: #142F67;
+    color: #AAAFBD;
 }
 
 
 .service_item{
     width: 100%;
     overflow: hidden;
-    mix-blend-mode: multiply; 
 }
 
 .service_item img{
-    width: 50%;
-    opacity: 0.6;
+    width: 30%;
     display: table-cell;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 3rem;
 }
 
 
@@ -1284,7 +1271,7 @@ Impress section style
 
 .impress{
     background:url(../images/background/work-together.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: auto;
     position: relative;
 }
 .main_impress h2{
@@ -1305,11 +1292,11 @@ Portfolio section style
     overflow: hidden;
 }
 .main_portfolio h4{
-    color:#142F67;
-    font-weight: 200;
+    color:#F8FAFC;
+    font-weight: 500;
 }
 .main_portfolio p{
-    color:#142F67;
+    color:#AAAFBD;
     padding-bottom: 4rem;
 }
 
@@ -1340,7 +1327,7 @@ Portfolio section style
     top:0%;
     width:100%;
     height: 100%;
-    background-color: #143067be;
+    background-color: #0d1321a5;
     padding-top: 12%;
     opacity: 0;
     -webkit-transition: all 0.4s;
@@ -1429,7 +1416,6 @@ Skill Section style
 Testimonial Section style
 =======================*/
 .testimonial{
-    background: url(../images/background/testimonial.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -1447,29 +1433,46 @@ Testimonial Section style
     margin: 0 auto;
 }
 .main_testimonial .testimonial_slid .slick-arrow{
-    border:1px solid #fff;
+    border:3px solid #f2f2f2;
     width:45px;
     height: 45px;
-    line-height:  45px;
+    line-height:  38px;
     text-align: center;
-    color:#fff;
-    border-radius: 50%;
+    color:#f2f2f2;a
     cursor: pointer;
     position: relative;
 }
+
 .main_testimonial .testimonial_slid .slick-arrow.nextprevleft{
     float: left;
-    top:20px;
+    top:3rem;
     left:-6%;
 }
 .testimonial_slid .slick-arrow.nextprevright{
     float: right;
-    top:-130px;
+    top:-15rem;
     right:-6%;
 }
 .main_testimonial .testimonial_item .test_authour i{
     color:#ffbf00;
 }
+
+.main_testimonial .slick-slide img {
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid #f2f2f2;
+    margin: auto;
+}
+
+.main_testimonial p {
+    padding-top: 2rem;
+}
+
+.main_testimonial h4 {
+    padding-bottom: 2rem;
+
+}
+
 
 
 /*
@@ -1488,8 +1491,8 @@ Pricing Section style
 }
 
 .main_pricing .head_title p{
-    color:#FFF;
-    padding-bottom: 2rem;
+    color:#AAAFBD;
+    padding-bottom: 5rem;
 }
 
 
@@ -1552,7 +1555,10 @@ Pricing Section style
 }
 
 section#pricing {
-    background-color: #142F67;
+    background-color: #0D1321;
+    background:url(../images/background/planes.jpg) no-repeat center center;
+    background-size: auto;
+    position: relative;
 }
 
 
@@ -1716,7 +1722,7 @@ Footer Section style
     color: #ff0000;
 }
 .footer.bg-black{
-    background: #142F67;
+    background: url(../images/background/footer.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     color: #fff;
