@@ -1330,6 +1330,8 @@ mark,
 }
 .text-uppercase {
   text-transform: uppercase;
+  padding-top: 1rem;
+}
 }
 .text-capitalize {
   text-transform: capitalize;
@@ -1924,10 +1926,18 @@ pre code {
     margin-left: 25%;
   }
   .col-sm-offset-2 {
-    margin-left: 16.66666667%;
+    margin-left: 50%;
+    text-align: left;
   }
+
+
+
+  form.form-inline {
+    margin-left: 50%;
+}
+
   .col-sm-offset-1 {
-    margin-left: 8.33333333%;
+    margin-left: 10%;
   }
   .col-sm-offset-0 {
     margin-left: 0;
