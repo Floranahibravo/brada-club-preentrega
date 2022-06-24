@@ -1005,6 +1005,7 @@ Home Section style
     background: url(../images/background/header.jpg) no-repeat bottom center;
     background-size: cover;
     position: relative;
+    background-position-x: 78%;
 }
 .main_home{
     overflow: hidden;
@@ -1660,6 +1661,7 @@ Subscribe Section style
     background: url(../images/background/subscribe.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
+    background-position-x: 8%;
 }
 .main_subscribe{
     width:100%;
