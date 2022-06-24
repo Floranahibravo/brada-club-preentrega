@@ -1330,6 +1330,8 @@ mark,
 }
 .text-uppercase {
   text-transform: uppercase;
+  padding-top: 1rem;
+}
 }
 .text-capitalize {
   text-transform: capitalize;
