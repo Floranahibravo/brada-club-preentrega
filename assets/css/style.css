@@ -1678,6 +1678,13 @@ Subscribe Section style
     /*width:15%;*/
 }
 
+.col-sm-6.col-sm-offset-2 {
+    text-align: left;
+}
+
+form.form-inline {
+    text-align: left;
+}
 
 /*
 Blog Section style
@@ -1803,6 +1810,11 @@ Footer Section style
     color:white;
     font-weight: 250;
 }
+
+p.wow.fadeInRight {
+    text-align: right;
+}
+
 
 /*maps*/
 .main_maps{
