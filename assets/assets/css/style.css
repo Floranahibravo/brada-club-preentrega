@@ -1371,6 +1371,58 @@ service section style
 Impress section style
 ========================*/
 
+.impress-1{
+    background: url(../images/background/subscribe-1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    background-position-x: 18%;
+}
+.main_impress h2{
+    font-size:2.286rem
+}
+.impress_btns .btn{
+    padding: 1rem 4rem;
+}
+
+h1.text-white.text-uppercase {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #0D1321;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+h2.text-white.text-uppercase {
+    text-align: left;
+    color: #0D1321;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+p.m-top-40.text-white {
+    text-align: left;
+    color: #0D1321;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+h1.text-uppercase {
+    /* font-weight: 700; */
+    font-size: 3.5rem;
+}
+
+
+/*
+Impress section style
+========================*/
+
 .impress{
     background:url(../images/background/work-together.jpg) no-repeat center center;
     background-size: auto;
@@ -1385,7 +1437,7 @@ Impress section style
 
 h1.text-white.text-uppercase {
     text-align: left;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     color: #0D1321;
     position: relative;
@@ -1489,7 +1541,7 @@ Portfolio section style
 .home_btns a,
 .impress_btns a,
 .portfolio_hover_icon a{
-    margin-left: 10px;
+    
 }
 
 .portfolio_hover_icon a i{
@@ -1748,6 +1800,8 @@ Brand Section style
     width:25%;
     padding: 10px;
 }
+
+
 
 /*
 Subscribe Section style
