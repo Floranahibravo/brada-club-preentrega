@@ -1330,9 +1330,8 @@ mark,
 }
 .text-uppercase {
   text-transform: uppercase;
-  padding-top: 1rem;
 }
-}
+
 .text-capitalize {
   text-transform: capitalize;
 }
@@ -1425,6 +1424,7 @@ ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
+  padding-left: 1rem;
 }
 .list-unstyled {
   padding-left: 0;
