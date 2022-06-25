@@ -1315,7 +1315,7 @@ Featured section style
     margin-right: 5px;
 }
 .slick-slide{
-    opacity: .6;
+
 }
 .slick-center{
     display: block;
@@ -1704,6 +1704,7 @@ section#pricing {
     background:url(../images/background/planes.jpg) no-repeat center center;
     background-size: auto;
     position: relative;
+
 }
 
 h6.text-center {
