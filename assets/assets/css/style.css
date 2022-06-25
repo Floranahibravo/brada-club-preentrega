@@ -95,8 +95,8 @@ section { overflow: hidden; }*/
 }
 
 .roomy-40 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2rem;
+    padding-right: 1rem;
 }
 
 
@@ -243,6 +243,7 @@ h6 {
     color:#F8FAFC;
     margin-bottom: 10px;
     letter-spacing: 1.5px;
+    line-height: 1.5rem;
     }
 
 
@@ -1005,6 +1006,7 @@ Home Section style
     background: url(../images/background/header.jpg) no-repeat bottom center;
     background-size: cover;
     position: relative;
+    background-position-x: 78%;
 }
 .main_home{
     overflow: hidden;
@@ -1660,6 +1662,7 @@ Subscribe Section style
     background: url(../images/background/subscribe.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
+    background-position-x: 18%;
 }
 .main_subscribe{
     width:100%;
@@ -1713,7 +1716,7 @@ Blog Section style
     transform: scale(1.1) rotate(2deg);
 }
 .blog_text{
-    border: 1px solid #eee;
+    text-align: left;
 }
 .blog_text p a{
     color:#666666;
