@@ -1330,9 +1330,9 @@ mark,
 }
 .text-uppercase {
   text-transform: uppercase;
-  padding-top: 1rem;
+  padding-top:-3rem;
 }
-}
+
 .text-capitalize {
   text-transform: capitalize;
 }
